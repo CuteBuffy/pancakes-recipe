@@ -1,0 +1,129 @@
+.description,
+.main,
+.recipe {
+  margin-top: 4rem;
+}
+
+.description__container,
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.description__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(90, 150, 241);
+  font-size: 2.5rem;
+}
+
+.description__container span,
+.main__container span {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 2rem;
+}
+
+.description__container span a {
+  color: rgb(90, 150, 241);
+}
+
+.description__container span a:hover {
+  border-bottom: 1px solid;
+}
+
+.main__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(90, 150, 241);
+  font-size: 2.3rem;
+}
+
+.main__cook-info {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.clock,
+.mitten,
+.bell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.clock p,
+.mitten p,
+.bell p {
+  color: rgb(243, 145, 53);
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.recipe__ingiridients-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.recipe__container img {
+  max-height: 300px;
+  max-width: 600px;
+}
+
+.table__container table tbody tr td {
+  padding: 10px 15px;
+}
+
+.table__container table tbody tr td a{
+  color: rgb(90, 150, 241);
+}
+
+.table__container table tbody tr td a:hover {
+  text-decoration: underline;
+}
+
+.table__container table tbody tr:nth-child(odd) {
+  background: #F4F4F5;
+}
+
+.recipe__ingridients {
+  text-transform: uppercase;
+  color: rgb(90, 150, 241);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.table__container,
+.table__container table {
+  width: 100%;
+}
+
+.recipe__preparing {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.recipe__preparing a {
+  color: rgb(90, 150, 241);
+  text-decoration: underline;
+}
+
+.recipe__preparing a:hover {
+  text-decoration: none;
+}
+
+.recipe__preparing-title {
+  color: rgb(90, 150, 241);
+  text-transform: uppercase;
+}
+
+.recipe__preparing-final {
+  max-width: 60ch;
+}
